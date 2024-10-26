@@ -1,0 +1,48 @@
+body {
+	display: grid;
+	place-items: center;
+	margin: 0;
+	padding: 0 24px;
+	background-image: url("bg2.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	animation: pan 6s infinite alternate linear;
+	background-color: #636fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 1.25;
+	letter-spacing: 1px;
+}
+@media (width>=500px){
+	body{
+		padding: 0;
+	}
+}
+
+* {
+	box-sizing: border-box;
+	transition: .25s all ease;
+}
+html, body{
+	height: 100%;
+}
+a, button{
+	cursor: pointer;
+}
+@keyframes pan {
+	100% {
+		background-position: 15% 50%;
+	}
+}
+h1 {
+    background-color: darkgreen;
+    width: 260px;
+}
+form {
+    background-color: salmon;
+    width: 260px;
+}
+button {
+    background-color: rgb(244, 16, 16);
+    width: 100px;
+}

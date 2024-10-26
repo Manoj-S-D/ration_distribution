@@ -1,0 +1,44 @@
+body {
+	background-color: #636fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 1.25;
+	letter-spacing: 1px;
+}
+
+* {
+	box-sizing: border-box;
+	transition: .25s all ease;
+}
+p {
+    text-align: left;
+}
+h2 {
+    text-align: left;
+}
+button {
+    background-color: rgb(16, 244, 100);
+    width:px;
+    display: inline-block;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	padding: 5px 15px;
+	border: 3px solid #000000;
+	border-radius: 8px;
+}
+.a {
+    display: inline-block;
+	position: fixed;
+	z-index: 0;
+	top: 0;
+	left: 0;
+	gap: 1px;
+}
+@keyframes pulse {
+	from {
+		box-shadow: 0 0 25px #7effb2, 0 0 50px #2cd9ff;
+	}
+}
+button:focus{
+	animation: pulse 1s ease-in;
+}

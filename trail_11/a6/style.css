@@ -1,0 +1,47 @@
+body {
+	display: grid;
+	place-items: center;
+	margin: 0;
+	padding: 0 24px;
+	background-image: url("bg1.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	animation: pan 6s infinite alternate linear;
+	background-color: #636fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 1.25;
+	letter-spacing: 1px;
+}
+@media (width>=500px){
+	body{
+		padding: 0;
+	}
+}
+button {
+	display: inline-block;
+	background-color: rgb(16, 244, 244);
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 10px;
+	border: 2px solid #000000;
+	border-radius: 14px;
+}
+footer{
+    display:block;
+    position: relative;
+    left: 10;
+    padding: 3px;
+    background-color: darksalmon;
+    color: white;
+}
+.column{
+    float:left;
+    width: 30%;
+    height: 250px;
+
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
